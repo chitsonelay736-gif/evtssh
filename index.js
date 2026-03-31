@@ -14,7 +14,7 @@ app.use(express.static('panel'));
 
 // Autenticación básica (cambiar si quieres)
 app.use(['/','/generate'], basicAuth({
-  users: { 'danaeldev': '123456' },
+  users: { 'saisai': '123456' },
   challenge: true,
 }));
 
